@@ -9,7 +9,7 @@
     align-items: center;
 }
 .field{
-    background-color: yellow;
+    background-color: #850F8D;
     width: 500px;
     height: 500px;
     margin-bottom: 30px;
@@ -21,7 +21,7 @@
     border: none;
     font-size: 25px;
     color: green;
-    background-color: aquamarine;
+    background-color: #E49BFF;
     cursor: pointer;
     width: 200px;
     height: 80px;
