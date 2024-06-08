@@ -1,58 +1,117 @@
-.title{
-    text-align: center;
-    font-size: 50px;
-    color: brown;
+.title {
+  text-align: center;
+  font-size: 50px;
+  color: brown;
 }
-.button__inner{
+.button__inner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  max-width: 200px;
+  width: 100%;
+}
+.add {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.change {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 5px solid aquamarine;
+  background-color: aliceblue;
+  font-size: 20px;
+  cursor: pointer;
+}
+.none1 {
+  display: none;
+}
+.active1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.none2 {
+display: none;
+}
+.active2{
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 40px;
-    max-width: 200px;
-    width: 100%;
+    justify-content: center;
+    gap: 50px;
 }
-.add{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.change{
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    border: 5px solid aquamarine;
-    background-color: aliceblue;
-    font-size: 20px;
-    cursor: pointer;
+.field {
+  background-color: #850f8d;
+  width: 500px;
+  height: 500px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.field__for__random1{
- display: none;
-}
-.field__for__random2{
-    display: none;
-   }
-.field{
-    background-color: #850F8D;
+.field1 {
+    background-color: #850f8d;
     width: 500px;
     height: 500px;
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .field2 {
+    background-color: #850f8d;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.btn {
+  border: none;
+  font-size: 25px;
+  color: green;
+  background-color: #e49bff;
+  cursor: pointer;
+  width: 200px;
+  height: 80px;
+  border-radius: 60px;
 }
-.btn{
+.btn:hover {
+  color: red;
+}
+.btn1 {
     border: none;
     font-size: 25px;
     color: green;
-    background-color: #E49BFF;
+    background-color: #e49bff;
     cursor: pointer;
     width: 200px;
     height: 80px;
     border-radius: 60px;
-}
-.btn:hover{
+  }
+  .btn1:hover {
     color: red;
-}
-.img{
-    width: 450px;
-    height: 450px;
+  }
+  .btn2 {
+    border: none;
+    font-size: 25px;
+    color: green;
+    background-color: #e49bff;
+    cursor: pointer;
+    width: 200px;
+    height: 80px;
+    border-radius: 60px;
+  }
+  .btn2:hover {
+    color: red;
+  }
+.img {
+  width: 450px;
+  height: 450px;
 }
