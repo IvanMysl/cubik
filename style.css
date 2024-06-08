@@ -1,0 +1,36 @@
+.title{
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+}
+.field__for__random{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.field{
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    border: none;
+    font-size: 25px;
+    color: green;
+    background-color: aquamarine;
+    cursor: pointer;
+    width: 200px;
+    height: 80px;
+    border-radius: 60px;
+}
+.btn:hover{
+    color: red;
+}
+.img{
+    width: 450px;
+    height: 450px;
+}
