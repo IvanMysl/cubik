@@ -3,11 +3,33 @@
     font-size: 50px;
     color: brown;
 }
-.field__for__random{
+.button__inner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    max-width: 200px;
+    width: 100%;
+}
+.add{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.change{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 5px solid aquamarine;
+    background-color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+}
+.field__for__random1{
+ display: none;
+}
+.field__for__random2{
+    display: none;
+   }
 .field{
     background-color: #850F8D;
     width: 500px;
